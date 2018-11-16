@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var angular_1 = __importDefault(require("angular"));
 var angular_material_1 = __importDefault(require("angular-material"));
-angular_1.default.module("ngPagination", [
+var module = angular_1.default.module("ngPagination", [
     angular_material_1.default
 ])
     .directive("pagination", [
@@ -73,4 +73,5 @@ angular_1.default.module("ngPagination", [
         }
     }); }
 ]);
+exports.default = module.name;
 //# sourceMappingURL=index.js.map

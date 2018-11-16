@@ -2,7 +2,7 @@ import angular, {INgModelController} from "angular";
 import ngMaterial from "angular-material";
 import IDialogService = angular.material.IDialogService;
 
-angular.module("ngPagination", [
+const module = angular.module("ngPagination", [
     ngMaterial
 ])
 
@@ -88,3 +88,5 @@ angular.module("ngPagination", [
             }
         })
     ])
+
+export default module.name;
