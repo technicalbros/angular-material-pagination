@@ -1,6 +1,6 @@
 {
   "name": "angular-material-pagination",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pagination for Angular Material",
   "scripts": {
     "dev": "webpack --env.mode=development",
